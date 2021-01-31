@@ -1,0 +1,6 @@
+flask~=1.1.2
+flask-restful
+flask_sqlalchemy
+flask_migrate
+SQLAlchemy~=1.3.22
+flasgger~=0.9.5

@@ -1,0 +1,19 @@
+tags:
+  - user
+summary: Get user by userid
+description: Bowling User
+parameters:
+  - name: user_id
+    in: path
+    description: id value of user
+    required: true
+    schema:
+      type: string
+      example: "001"
+responses:
+  "200":
+    description: successful operation
+    contents:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/user"
